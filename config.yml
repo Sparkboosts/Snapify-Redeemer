@@ -1,0 +1,105 @@
+############# SUPPLY REDEEMER[1.0] ###########
+# Licensing ->
+License: "" # License Key Here
+Sec_2_Prot: "" # Sec two protection key here
+
+# Importants ->
+Vcc_Repeats: 3 # Vcc Uses, 4 For Revolut
+Auth_Retries: 2 # Auth Retries
+
+# Music ->
+play_music: False
+
+# Next Update ->
+# SOME SPECIALS ->
+Redeem_With_Card_Already_In_Token: True # This is a special feature if you enable this the redeemer will redeem the promo with the card already presented in the token
+
+# Console Logging Methods ->
+Theme: "Normal" # Normal, Blue
+Logging: "All" # All[Prints Debug Too], Important[Prints Only Important Things]
+Expressor: "Sign" # Choices: Sign, Text | In Console Express A Condition, If Sign: [+] - Redeemed Promo, If Text: [REDEEM] - Redeemed Promo
+Mask_Resources: true # Masks VCC, PromotionCode, And Token In Console.
+Show_Time_Stamp: true # Shows timestamp in console like [2024-14-4:10:20:30]
+
+# Proxy Settings ->
+ProxyLess: True
+Use_Inbuilt_Proxies: False # uses inbuilt proxies in gen ProxyLess must be turned off for this feature | the proxies are of webshare
+
+# Inbuilt Boost Tool ->
+Use_Boost_Tool: false # true/false
+Guild_Invite: "" # format : discord.gg/{invite_code}
+
+# Token Customization ->
+Customize: false # customizes token
+Nick: "" # nickname after redeeming
+Bio: "" # bio after redeeming
+
+
+DiscordBotLogging:
+  UseBot: True # Put True to enable this feature
+  BotToken: ""
+  LogChannelID: "1294545163506679905"
+  ServiceName: "@Lunarmart"
+
+
+# Custom Billing ->
+Address: "Rua do Brasil 256" # Commonly Known As Line 1
+Country: "PT" # Always 2 Letters [ Country Code, Example: United States = US] | United Kingdom = GB
+Postal: "3000-775" # Postal Code Here
+State: "Coimbra" # State Here
+City: "Coimbra" # City Here
+Name: "Joseph Dbratt" # Person Name On Card
+
+# PATCHED!!!!!!!!!!!!!!!!!!
+# Inbuilt 1Month Generator ->
+UsePromoGen: false # Generates 1Month Promo Automatically Using Opera GX X Discord Collab [ Alienware Soon ] [Doesnt Work Fix In Next Update]
+Capsolver: "" # capsolver key here , put proxy in proxies.txt
+PromoType: "Opera GX" # Alienware Soon
+# PATCHED!!!!!!!!!!!!!!^^^^
+
+# Captcha Settings ->
+Use_Solver: true # Uses Captcha Solver For Card Adding And For Redeeming, Doesnt Work Right Now Cause Of Flags
+Service: "HCoptcha" # Hcoptcha only supported
+
+# Others ->
+Remove_Vccs: false # Removes VCC After Redemption
+Resume_Key: "" # Key To Resume Threads
+Stop_Key: "" # Key To Stop Threads [Pause]
+Timezone: "Asia/Kolkata"
+
+Sleep_After_X_Amount_Of_Redeems: 0 # Sleeps After X Amount Of Redeems put 0 on Sleep_After_X_Amount_Of_Redeems_Delay to avoid this feature
+Sleep_After_X_Amount_Of_Redeems_Delay: 0
+Stop_threads_After_Redeeming: 0 # stops thread after a redeeming a specific amount of nitros, put 0 to avoid this feature
+Stop_Threads_If_VccError: 0 # Stops Threads If Vcc Errors Like Card Declined Or Other More Than 4 Times, Put 0 To Avoid It
+Smart_Resources_Saver: true # A Smart Bot To Save Your Resources, When a token gets captcha the vcc uses gets wasted this feature saves your vcc usage smartly
+Sleep_After_Redeem: 2 # Put Blank If You Dont Want Sleep, This Function Sleeps After Redeeming To Avoid Auth Errors
+Auth_Error_Limit: 0 # Usually 2 [default]
+
+# Webhook Logging ->
+Log_Webhook: true # Sends Info In Webhook
+Webhook_Url: "https://discord.com/api/webhooks/1294545193525186582/2l02b7E1QX0CQ8yRuIDGyji7SaqCBV2eeUZ4mCvws02tzyH21N5da3x35aaKkV19WHA_"
+Message_Id: "" # Not Required!!!!#^%#^&*(^%$%^&)
+
+# Next Update ->
+# Token Changer ->
+Change_Token: false # Inbuilt Token Changer [ Recommended Not To Use Cause Havent Tested Yet. ]
+Password: ""
+
+# VCC Format ->
+# Card_Number|Card_Expiry_Month|Card_Expiry_Year|CVC [ Example: 51736443846464574|02|29|034 ]
+# Or
+# Card_Number:Card_Expiry_Month_Year [ Example: 51736443846464574:0229:034 ]
+
+# Token Format ->
+# Email:Password:Token
+# Or
+# Token Only
+
+# Promo Format ->
+# Any [promos.gg or discord/promotions format]
+
+# Next Update Information ->
+# Inbuilt Boost Tool
+# Many More Will Add According To Your Suggestion
+
+
